@@ -1,0 +1,122 @@
+.catalog{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.header_catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    outline: none;
+}
+.select_p {
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-top: 60px;
+}
+.h1_catalog{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.input{
+    width: 633px;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    padding: 8px;
+    color: black;
+    background: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.input input::placeholder {
+    color: black;
+}
+
+.ikon_search{
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    border-radius: 100px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.catalog_wrapper{
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tovar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.img_tovar{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+.img_tovar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.price_old{
+    text-decoration-line: line-through;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.prices{
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+    font-size: 16px;
+}
+
+select {
+    margin-bottom: 40px;
+    padding: 10px;
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.8em;
+    background-size: 0.85em auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  /* скроет иконку стрелки в IE */
+  select::-ms-expand {
+    display: none;
+  }
